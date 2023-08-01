@@ -1,19 +1,19 @@
 <template>
     <div>
-        <primeiroComponente/>
-        <segundoComponente/>
+        <componente/>
+        <teste/>
     </div>
 </template>
 
 <script>
-    import primeiroComponente from './components/componente.vue';
-    import segundoComponente from './components/teste.vue';
+    import componente from './components/componente.vue';
+    import teste from './components/teste.vue';
 
     export default {
         name: 'App',
         components: {
-            primeiroComponente,
-            segundoComponente
+            componente,
+            teste
         }
     }
 </script>
