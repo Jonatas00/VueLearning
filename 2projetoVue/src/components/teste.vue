@@ -1,9 +1,14 @@
 <template>
-    <p>Teste</p>
+    <p>Outro teste</p>
 </template>
 
 <script>
     export default {
-        name: 'teste'
+        name: 'teste',
+        data () {
+            return {
+                testando: ""
+            }
+        }
     }
 </script>

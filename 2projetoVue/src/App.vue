@@ -1,6 +1,7 @@
 <template>
     <div>
         <componente/>
+        <p>O dado do componente é: {{ testando }}</p>
         <teste/>
     </div>
 </template>
@@ -14,6 +15,11 @@
         components: {
             componente,
             teste
+        },
+        data() {
+            return {
+                testando: "Olha o teste"
+            }
         }
     }
 </script>
