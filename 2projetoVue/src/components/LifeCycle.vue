@@ -11,7 +11,14 @@ export default {
         }
     },
     created() {
-        this.nome = "Jonatas"
+        setTimeout(() => {
+            this.nome = 'Jonatas'
+        }, 1000);
+    },
+    mounted() {
+        setTimeout(() => {
+            this.nome = 'Nathan'
+        }, 2000);
     }
 }
 </script>
