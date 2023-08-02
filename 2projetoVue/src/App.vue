@@ -1,20 +1,21 @@
 <template>
     <div>
-        <componente/>
+        <Componente/>
         <p>O dado do componente é: {{ testando }}</p>
-        <teste/>
+        <LifeCycle/>
     </div>
 </template>
 
 <script>
-    import componente from './components/componente.vue';
-    import teste from './components/teste.vue';
+    import Componente from './components/Componente.vue';
+    import Teste from './components/Teste.vue';
+    import LifeCycle from './components/LifeCycle.vue';
 
     export default {
         name: 'App',
         components: {
-            componente,
-            teste
+            Componente,
+            LifeCycle
         },
         data() {
             return {
