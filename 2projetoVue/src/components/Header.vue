@@ -16,18 +16,16 @@
     ul {
         list-style: none;
         display: flex;
+        background: #999;
     }
-
     li {
         margin-right: 10px;
     }
-
     a {
         color: #e7e7e7;
         text-decoration: none;
         transition: .5s;
     }
-
     a:hover {
         color: rgb(255, 0, 0);
     }
