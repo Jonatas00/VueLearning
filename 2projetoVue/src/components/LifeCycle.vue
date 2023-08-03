@@ -9,8 +9,7 @@ export default {
         return {
             nome: 'Ainda não sei'
             
-        }
-        
+        }  
     },
     created() {
         setTimeout(() => {
