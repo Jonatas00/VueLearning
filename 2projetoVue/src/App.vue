@@ -4,6 +4,8 @@
         <p>O dado do componente é: {{ testando }}</p>
         <LifeCycle />
         <Pessoa />
+
+        <Picture />
     </div>
 </template>
 
@@ -12,13 +14,15 @@
     import Teste from './components/Teste.vue';
     import LifeCycle from './components/LifeCycle.vue';
     import Pessoa from './components/Pessoa.vue';
+    import Picture from './components/Picture.vue';
 
     export default {
         name: 'App',
         components: {
             Componente,
             LifeCycle,
-            Pessoa
+            Pessoa,
+            Picture
         },
         data() {
             return {
