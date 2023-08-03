@@ -1,12 +1,10 @@
 <template>
     <div>
         <Header />
-
         <Componente />
         <p class="pTeste">O dado do componente é: {{ testando }}</p>
         <LifeCycle />
         <Pessoa />
-
         <Picture />
     </div>
 </template>
