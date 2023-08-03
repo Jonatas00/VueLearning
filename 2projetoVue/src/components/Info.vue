@@ -8,7 +8,7 @@
             <li>Python</li>
         </ul>
         <div>
-            <button @click="showEmail">Mostrar e-mail</button>
+            <button @click="showEmail">{{ textoBotao }}</button>
         </div>
 
         <p v-show="mostrar_email">Meu email é {{ email }}</p>
@@ -24,12 +24,18 @@
                 esta_trabalhando: false,
                 email: 'djonatas31@gmail.com',
                 mostrar_email: false,
+                textoBotao: 'Mostrar Email',
                 github: "https://github.com/Jonatas00"
             }
         },
         methods: {
             showEmail() {
                 this.mostrar_email = !this.mostrar_email
+                if (!this.mostrar_email) {
+                    this.textoBotao = 'Mostrar e-mail'
+                } else {
+                    this.textoBotao = 'Ocultar e-mail'
+                }
             }
         }
     }
