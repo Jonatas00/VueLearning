@@ -1,5 +1,5 @@
 <template>
-    <img v-bind:src="img" v-bind:alt="imgalt" v-bind:width="500">
+    <img :src="img" :alt="imgalt" :width="500">
 </template>
 
 <script>
@@ -7,7 +7,7 @@
         name: 'Picture',
         data () {
             return {
-                img: '../public/img/img.jpeg',
+                img: '/img/img.jpeg',
                 imgalt: 'Luffynho',
                 imgwidth: '500'
             }
