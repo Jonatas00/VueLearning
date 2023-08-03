@@ -11,7 +11,6 @@
 
 <script>
     import Componente from './components/Componente.vue';
-    import Teste from './components/Teste.vue';
     import LifeCycle from './components/LifeCycle.vue';
     import Pessoa from './components/Pessoa.vue';
     import Picture from './components/Picture.vue';
