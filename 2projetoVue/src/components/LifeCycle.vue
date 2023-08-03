@@ -8,17 +8,28 @@ export default {
     data() {
         return {
             nome: 'Ainda não sei'
+            
         }
+        
     },
     created() {
         setTimeout(() => {
-            this.nome = 'Jonatas'
+            this.nome = 'Nathan'
         }, 1000);
+
+        this.lifeCycle()
     },
     mounted() {
         setTimeout(() => {
-            this.nome = 'Nathan'
+            this.nome = 'Jonatas'
         }, 2000);
+        
+        this.lifeCycle()
+    },
+    methods: {
+        lifeCycle() {
+            console.log("executou")
+        }
     }
 }
 </script>
