@@ -5,6 +5,7 @@
         <p class="pTeste">O dado do componente é: {{ testando }}</p>
         <LifeCycle />
         <Pessoa />
+        <Vmodel />
         <Picture />
     </div>
 </template>
@@ -15,6 +16,7 @@
     import LifeCycle from './components/LifeCycle.vue';
     import Pessoa from './components/Pessoa.vue';
     import Picture from './components/Picture.vue';
+    import Vmodel from './components/Vmodel.vue'
 
     export default {
         name: 'App',
@@ -23,7 +25,8 @@
             Componente,
             LifeCycle,
             Pessoa,
-            Picture
+            Picture,
+            Vmodel
         },
         data() {
             return {
