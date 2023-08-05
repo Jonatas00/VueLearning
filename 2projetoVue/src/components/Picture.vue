@@ -7,8 +7,8 @@
         name: 'Picture',
         data () {
             return {
-                img: '/img/img.jpeg',
-                imgalt: 'Luffynho',
+                img: '/img/img01.png',
+                imgalt: 'LuffyG4',
                 imgwidth: '500'
             }
         }
