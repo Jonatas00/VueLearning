@@ -27,10 +27,12 @@
 <script>
     export default {
         name: 'Info',
-        data () {
+        props: {
+            email: String,
+            esta_trabalhando: Boolean
+        },
+        data() {
             return {
-                esta_trabalhando: false,
-                email: 'djonatas31@gmail.com',
                 mostrar_email: false,
                 textoBotao: 'Mostrar Email',
                 github: "https://github.com/Jonatas00",

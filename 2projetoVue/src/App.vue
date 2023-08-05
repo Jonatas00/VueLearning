@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Header />
+        <Header  :esta_logado="esta_logado" />
         <Componente />
         <p class="pTeste">O dado do componente é: {{ testando }}</p>
         <LifeCycle />
@@ -30,7 +30,8 @@
         },
         data() {
             return {
-                testando: "Olha o teste"
+                testando: "Olha o teste",
+                esta_logado: true
             }
         }
     }
