@@ -18,6 +18,10 @@
 </script>
 <style scoped>
   footer {
+    width: 100%;
+    position: static;
+    left: 0;
+    bottom: 0;
     height: 200px;
     background-color: #222;
     border-top: 4px solid #111;
@@ -26,7 +30,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    
   }
   p {
     padding: 10px;
