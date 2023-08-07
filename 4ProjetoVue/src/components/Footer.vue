@@ -2,7 +2,7 @@
   <footer>
     <p>Make Your Burger &copy; 2023</p>
     <p>Projeto feito durante o <a :href="link_curso" target="_blank">curso de Vue3 do Matheus Battisti</a></p>
-    <a href="#" target="_blank">Link do repositório</a>
+    <a :href="link_repo" target="_blank">Link do repositório</a>
   </footer>
 </template>
 <script>
@@ -11,7 +11,7 @@
     data() {
       return {
         link_curso: 'https://youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL',
-        link_repo: ''
+        link_repo: 'https://github.com/Jonatas00/VueLearning/tree/main/4ProjetoVue'
       }
     }
   }
