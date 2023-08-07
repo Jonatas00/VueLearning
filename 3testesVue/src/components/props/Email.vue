@@ -1,26 +1,18 @@
 <template>
-  <BotaoEmail @exibir-email="ExibirEmail"/>
-  <p v-show="showEmail">{{ email }}</p>
+  <InfoEmail :email="email"/>
 </template>
 <script>
-  import BotaoEmail from './BotaoEmail.vue';
+  import InfoEmail from './InfoEmail.vue';
 
   export default {
     name: 'Email',
     components: {
-      BotaoEmail
+      InfoEmail
     },
-    data () {
+    data() {
       return {
-        showEmail: false,
-        email: 'djonatas31@gmail.com'
-      }
-    },
-    methods: {
-      ExibirEmail() {
-        this.showEmail = !this.showEmail
+        email: 'djonatas31@gmail.com',
       }
     }
-  }
-
+}
 </script>
