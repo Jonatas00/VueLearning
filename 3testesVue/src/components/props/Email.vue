@@ -1,18 +1,11 @@
 <template>
-  <InfoEmail :email="email"/>
+  <p>Meu email é: {{ email }}</p>
 </template>
 <script>
-  import InfoEmail from './InfoEmail.vue';
-
   export default {
     name: 'Email',
-    components: {
-      InfoEmail
-    },
-    data() {
-      return {
-        email: 'djonatas31@gmail.com',
-      }
+    props: {
+      email: String
     }
 }
 </script>

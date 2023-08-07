@@ -2,19 +2,19 @@
   <div>
     <Picture />
     <br>
-    <Email />
+    <InfoEmail />
   </div>
 </template>
 
 <script>
-  import Picture from './components/emiter/Picture.vue'
-  import Email from './components/props/Email.vue'
+  import Picture from './components/emiter/Picture.vue';
+  import InfoEmail from './components/props/InfoEmail.vue';
 
   export default {
     name: 'App',
     components: {
       Picture,
-      Email
+      InfoEmail
     }
   }
 </script>
