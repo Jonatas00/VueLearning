@@ -1,5 +1,5 @@
 <template>
-  <Botao @clicou-no-botao="ClicouNoBotao"/>
+  <Botao @clicou="exibirMensagem"/>
   <p v-show="podeMostrar">Eba! Você clicou no botão</p>
 </template>
 <script>
@@ -16,10 +16,9 @@
       }
     },
     methods: {
-      ClicouNoBotao() {
+      exibirMensagem() {
         this.podeMostrar = !this.podeMostrar
       }
     }
-
   }
 </script>

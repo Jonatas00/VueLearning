@@ -1,11 +1,11 @@
 <template>
-  <button @click="$emit('clicouNoBotao')">Clique no botão</button>
+  <button @click="$emit('clicou')">Clique no botão</button>
 </template>
 <script>
   export default {
     name: 'Botao',
     emits: [
-      'clicouNoBotao'
+      'clicou'
     ]
   }
 </script>
