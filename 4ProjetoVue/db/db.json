@@ -91,13 +91,13 @@
     },
     {
       "nome": "Nathan",
-      "pao": "Parmesão e Orégano",
-      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "carne": "Picanha",
       "opcionais": [
-        "Bacon",
-        "Pepino"
+        "Cheddar",
+        "Bacon"
       ],
-      "status": "Em produção",
+      "status": "Finalizado",
       "id": 2
     }
   ]
