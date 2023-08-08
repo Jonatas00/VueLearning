@@ -78,5 +78,27 @@
     }
   ],
   "burgers": [
+    {
+      "nome": "Jonatas",
+      "pao": "Integral",
+      "carne": "Picanha",
+      "opcionais": [
+        "Bacon",
+        "Tomate"
+      ],
+      "status": "Finalizado",
+      "id": 1
+    },
+    {
+      "nome": "Nathan",
+      "pao": "Parmesão e Orégano",
+      "carne": "Veggie burger",
+      "opcionais": [
+        "Bacon",
+        "Pepino"
+      ],
+      "status": "Em produção",
+      "id": 2
+    }
   ]
 }
