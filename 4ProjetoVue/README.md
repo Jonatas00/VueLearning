@@ -3,4 +3,4 @@
 [Canal Matheus Battisti](https://www.youtube.com/playlist?list=PLnDvRpP8BnezDglaAvtWgQXzsOmXUuRHL)
 
 
-![Image](public/MAINIMG.PNG)
+![Imagem](public/MAINIMG.PNG)
