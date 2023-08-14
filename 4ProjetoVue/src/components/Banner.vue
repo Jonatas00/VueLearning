@@ -15,7 +15,7 @@
     background-position: center;
     background-size: cover;
     object-fit: fill;
-    height: 500px;
+    height: 865px;
     display: flex;
     align-items: center;
     justify-content: flex-start;

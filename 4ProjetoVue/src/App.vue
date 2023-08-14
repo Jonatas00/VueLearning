@@ -30,7 +30,7 @@
   }
   .main-container {
     margin: 50px;
-    min-height: 800px;
+    min-height: 500px;
   }
 
   h1 {
